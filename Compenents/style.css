@@ -1,0 +1,58 @@
+*{
+    background-color: blueviolet;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 15px;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    font-size: 18px;
+    text-align: center;
+    color: white;
+}
+
+button{
+    background-color: white;
+    color: purple;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 20px;
+
+}
+
+.grid_con {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 20px; 
+    padding: 20px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.con{
+    margin: 2%;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+UL{
+    list-style: none;
+    padding: 20px;
+}
+
+input{
+    width: 90%;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
